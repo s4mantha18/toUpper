@@ -5,7 +5,9 @@ public class average {
         int sum = 0;
         for (int i=0; i<=10; i++){
             sum += i;
-            System.out.println(sum);
         }
+        System.out.println(sum);
+        int average = sum/10;
+        System.out.println(average);
     }
 }
